@@ -34,7 +34,8 @@ def main() -> None:
         "[cyan]1. Words[/cyan]\n"
         "[cyan]2. Phrases[/cyan]\n"
         "[cyan]3. Sentences[/cyan]\n"
-        "[cyan]4. Tones[/cyan]\n\n"
+        "[cyan]4. Tones[/cyan]\n"
+        "[cyan]5. Random[/cyan]\n\n"
         "Press Ctrl + C to exit\n"
     )
     rich_print(start_txt)
@@ -47,6 +48,8 @@ def main() -> None:
             case "3" | "sentences":
                 rich_print("[red]Not implemented yet.[/red]")
             case "4" | "tones":
+                rich_print("[red]Not implemented yet.[/red]")
+            case "5" | "random":
                 rich_print("[red]Not implemented yet.[/red]")
             case _:
                 rich_print("[red]Invalid selection. Please try again.[/red]")
